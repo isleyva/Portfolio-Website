@@ -23,6 +23,14 @@ export default function Profile() {
                             <i className="fa fa-youtube-square"></i>
                         </a>
                     </div>
+                    <div className="profile-details-name">
+                        <span className="primary text">
+                            {" "}
+                                Hello, I´m <span className="highlighted-text">Ivan</span>
+                        </span>
+                       
+                    </div> 
+                
                 </div>
             </div>
         </div>
