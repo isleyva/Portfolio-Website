@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Typical from 'react-typical'
 
 export default function Profile() {
   return (
@@ -28,9 +28,30 @@ export default function Profile() {
                             {" "}
                                 Hello, I´m <span className="highlighted-text">Ivan</span>
                         </span>
-                       
                     </div> 
-                
+                    <div className='profile-details-role'>
+                            <span className='primary-text'>
+                                    {" "}
+                                    <h1>
+                                        {" "}
+                                        <Typical
+                                            loop={Infinity}
+                                            steps={[
+                                                 "Enthusiastic Dev",
+                                                1000,
+                                                 "Frontend Developer",
+                                                 1000,
+                                                "React and Next.js Stack Dev",
+                                                1000,
+                                                "Crypto Enthusiast",
+                                                1000,
+                                                   "Especialiced in React",
+                                                1000,
+                                            ]}
+                                        />
+                                    </h1>
+                            </span>
+                    </div>
                 </div>
             </div>
         </div>
