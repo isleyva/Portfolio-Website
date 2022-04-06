@@ -50,7 +50,11 @@ export default function Profile() {
                                             ]}
                                         />
                                     </h1>
+                            
+                            <span className='profile-role-tagline'>
+                                Knack of bulding applications with React and Next.js.
                             </span>
+                            </span>               
                     </div>
                 </div>
             </div>
