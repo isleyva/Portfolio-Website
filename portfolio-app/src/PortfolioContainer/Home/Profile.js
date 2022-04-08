@@ -7,6 +7,8 @@ export default function Profile() {
             <div className="profile-parent">
                  <div className="profile-details">
                     <div className="colz">
+                        <div className="colz- icon">
+                            </div>
                             <a href="#">
                             <i className="fa fa-facebook-square"></i>
                             </a>
@@ -65,6 +67,9 @@ export default function Profile() {
                        </button>
                    </div>
                 </div>
+                <div className="profile-picture">
+                    <div className="profile-picture-background"></div>
+                </div>                            
             </div>
         </div>
  
