@@ -8,7 +8,6 @@ export default function Profile() {
                  <div className="profile-details">
                     <div className="colz">
                         <div className="colz- icon">
-                            </div>
                             <a href="#">
                             <i className="fa fa-facebook-square"></i>
                             </a>
@@ -24,6 +23,7 @@ export default function Profile() {
                             <a href="#">
                             <i className="fa fa-youtube-square"></i>
                         </a>
+                     </div>
                     </div>
                     <div className="profile-details-name">
                         <span className="primary text">
