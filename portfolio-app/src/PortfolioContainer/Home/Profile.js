@@ -1,5 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical'
+import './Profile.css'
 
 export default function Profile() {
   return (
@@ -39,8 +40,6 @@ export default function Profile() {
                                         <Typical
                                             loop={Infinity}
                                             steps={[
-                                                 "Enthusiastic Dev",
-                                                1000,
                                                  "Frontend Developer",
                                                  1000,
                                                 "React and Next.js Stack Dev",
