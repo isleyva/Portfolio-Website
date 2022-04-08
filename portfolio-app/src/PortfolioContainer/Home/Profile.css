@@ -7,3 +7,8 @@
   min-height: fit-content;
   background-image: url("../../assets//Home/bg.jpg"); 
 }
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}

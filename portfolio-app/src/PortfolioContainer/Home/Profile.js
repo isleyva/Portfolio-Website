@@ -50,8 +50,7 @@ export default function Profile() {
                                                 1000,
                                             ]}
                                         />
-                                    </h1>
-                            
+                            </h1>
                             <span className='profile-role-tagline'>
                                 Knack of bulding applications with React and Next.js.
                             </span>
@@ -64,7 +63,7 @@ export default function Profile() {
                        </button>
                             <a href='#' download='#'>
                                     <button className='btn highlighted-btn'>Get resume</button>
-                            </a>
+                     </a>
                    </div>
                 </div>
                 <div className="profile-picture">
@@ -72,11 +71,6 @@ export default function Profile() {
                 </div>                            
             </div>
         </div>
- 
- 
- 
- 
- 
-    )
+    );
 
 }
