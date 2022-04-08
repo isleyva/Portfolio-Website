@@ -61,10 +61,11 @@ export default function Profile() {
                    <div className='profile-options'>
                        <button className='btn primary-btn'>
                            {" "}
-                           Hire me {""}
-                            <a href='#' download='#'></a>
-                                    <button className='btn highlighted-btn'>Get resume</button>
+                           Hire me {" "}
                        </button>
+                            <a href='#' download='#'>
+                                    <button className='btn highlighted-btn'>Get resume</button>
+                            </a>
                    </div>
                 </div>
                 <div className="profile-picture">
