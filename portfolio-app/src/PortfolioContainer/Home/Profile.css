@@ -10,5 +10,18 @@
 .profile-parent {
   display: flex;
   align-items: center;
-  color: aliceblue;
+  color: aliceblue ;
+}
+.profile-details {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-role {
+    display: flex;
+    flex-direction: center;
+   margin: 14px 0px 24px 0px;
+}
+.profile-details-role h1{
+    font-size: 40x;
+    font-family: "cursive";
 }
