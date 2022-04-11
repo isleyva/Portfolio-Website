@@ -69,6 +69,7 @@
   transform: scale(1.07);
   transition: 1s;
 }
+
 .fa-facebook-square {
   color : rgb(132, 3, 3);
 }
@@ -84,3 +85,69 @@
 .fa-youtube-square {
   color : rgb(132, 3, 3);
 }
+
+.colz .colz-icon i{
+  padding: 8px;
+  padding-left: 0px;
+}
+
+.colz .colz-icon i:hover{
+transform: scale(1.5);
+}
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0px 0 80px;
+  }
+  .profile-details-names {
+    font-size: 20px;
+  }
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+  
+@media screen and (max-width: 910px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    }
+  }
+
+  @media screen and (max-width: 810px) {
+    .profile-picture {
+      margin: 0 !important;
+    }
+    .profile-parent {
+      flex-direction: column-reverse;
+      margin: 40px 0 0 0;
+    }
+    .profile-options {
+      display: flex;
+      justify-content: space-between;
+    }
+    .profile-deails {
+      margin: 25px 0 0;
+    }
+    .profile-options .highlighted-btn {
+      margin: 0 !important;
+    }
+    .profile-options, .profile-details-role {
+      text-align: center;
+    }
+  }
+
+@media screen and (max-width: 375px) {
+  .profile-picture {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+  .profile-deails {
+    width:90%;
+  }
+}
+  
