@@ -5,7 +5,7 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  background-image: url("../../assets//Home/bg.jpg"); 
+  background-image: url("../../assets//Home/bg2.jpg"); 
 }
 .profile-parent {
   display: flex;
@@ -29,7 +29,8 @@
   color: (--white);
 }
 .highlighted-text {
-  color: var(--dark-orange);
+  color: rgb(233, 229, 229);
+ 
 }
 .profile-role-tagline {
   font-size: 19px;
@@ -41,8 +42,9 @@
 }
 .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
-  background-color: cornsilk;
+  background-color: rgb(168, 0, 0);
   color:#111;
+  border: 2px solid #fefdfd;
 }
 .profile-picture {
   display: flex;
@@ -53,4 +55,13 @@
   height: 380px;
   width: 380px;
   margin: 0 0px 0 100px;
+}
+.profile-picture-background {
+  height: 92%;
+  width: 92%;
+  background-image: url("../../assets/Home/profilepicture.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
