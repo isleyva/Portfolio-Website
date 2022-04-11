@@ -65,3 +65,22 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.profile-picture-background:hover {
+  transform: scale(1.07);
+  transition: 1s;
+}
+.fa-facebook-square {
+  color : rgb(132, 3, 3);
+}
+.fa-google-plus-square {
+  color : rgb(132, 3, 3);
+}
+.fa-instagram {
+  color : rgb(132, 3, 3);
+}
+.fa-twitter {
+  color : rgb(132, 3, 3);
+}
+.fa-youtube-square {
+  color : rgb(132, 3, 3);
+}

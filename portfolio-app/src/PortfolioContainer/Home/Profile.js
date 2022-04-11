@@ -8,20 +8,20 @@ export default function Profile() {
             <div className="profile-parent">
                  <div className="profile-details">
                     <div className="colz">
-                        <div className="colz- icon">
-                            <a href="#">
+                        <div className="colz-icon">
+                            <a href="https://es-es.facebook.com/">
                             <i className="fa fa-facebook-square"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F&followup=https%3A%2F%2Fplus.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
                             <i className="fa fa-google-plus-square"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/">
                             <i className="fa fa-instagram"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/">
                             <i className="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.youtube.com/">
                             <i className="fa fa-youtube-square"></i>
                         </a>
                      </div>
