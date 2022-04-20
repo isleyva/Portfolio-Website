@@ -7,9 +7,6 @@ CONTENTS OF THIS FILE
  * Requirements
  * Recommended modules
  * Installation
- * Configuration
- * Troubleshooting
- * FAQ
- * Maintainers
+ * Deployment
 
 Personal porfolio web using React.
