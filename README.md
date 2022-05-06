@@ -5,8 +5,13 @@ CONTENTS OF THIS FILE
 
  * Introduction
  * Requirements
- * Recommended modules
  * Installation
- * Deployment
-
-Personal porfolio web using React.
+ * Deploymennt
+ 
+ INTRODUCTION
+ 
+ REQUERIMENTS
+ 
+ INSTALLATION
+ 
+ DEPLOYMENT
