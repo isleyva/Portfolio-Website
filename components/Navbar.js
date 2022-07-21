@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {AiOutlineClose} from 'react-icons/ai'
+import {AiOutlineMenu} from 'react-icons/ai'
 
 const Navbar = () => {
   return (
@@ -14,25 +14,25 @@ const Navbar = () => {
           height="200"
         />
         <div>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex pr-2">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-base uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-base uppercase hover:border-b">About</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-base uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Proyects</li>
+              <li className="ml-10 text-base uppercase hover:border-b">Proyects</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
+              <li className="ml-10 text-base uppercase hover:border-b">Contact</li>
             </Link>
           </ul>
-          <div>
-              <AiOutlineClose/>
+          <div className="md:hidden">
+              <AiOutlineMenu size={25}/>
           </div>
         </div>
       </div>
