@@ -48,11 +48,14 @@ const Navbar = () => {
       <div className="fixed left-0 top-0 w-full h-screen bg-black/70">
         <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-1 ease-in duration-300">
           <div>
-            <div className="flex w-full items-center justify-between ">
-              <Image src="/../public/assets/logo.png" alt="/" className="left-0 top-0" width="150" height="150"/>
+            <div className="flex w-full items-center justify-between mb-0">
+              <Image src="/../public/assets/logo.png" alt="/" className="object-cover h-48 w-96 " width="150" height="150"/>
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer mr-5">
               <AiOutlineClose/>
             </div>
+            </div>
+            <div className="border-b border-gray-300 my-0 ml-10 font-bold">
+              <p>Let´s build your dream proyect together</p>
             </div>
           </div>
         </div>
