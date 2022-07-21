@@ -15,8 +15,20 @@ const Navbar = () => {
         <div>
           <ul>
             <Link href="/">
-              
-              </Link>
+              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+            </Link>
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+            </Link>
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+            </Link>
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">Proyects</li>
+            </Link>
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+            </Link>
           </ul>
         </div>
       </div>
