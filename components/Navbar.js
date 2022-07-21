@@ -54,9 +54,29 @@ const Navbar = () => {
               <AiOutlineClose/>
             </div>
             </div>
-            <div className="border-b border-gray-300 my-0 ml-10 font-bold">
-              <p>Let´s build your dream proyect together</p>
+            <div className="border-b border-gray-300 my-0 ml-10 ">
+              <p className="w-[85%] md:w-[90$] py-4">Let´s build your dream proyect together</p>
             </div>
+          </div>
+          <div>
+            <ul className="ml-10 mt-5 uppercase">
+              <Link href="/">
+                <li className="py-4 text-sm font-bold">Home</li>
+              </Link>
+                <Link href="/">
+                <li className="py-4 text-sm font-bold">About </li>
+                </Link>
+                <Link href="/">
+                <li className="py-4 text-sm font-bold">Skills</li>
+                </Link>
+                <Link href="/">
+                <li className="py-4 text-sm font-bold">Proyects</li>
+                </Link>
+                <Link href="/">
+                <li className="py-4 text-sm font-bold">Contact</li>
+                </Link>
+                
+            </ul>
           </div>
         </div>
       </div>
