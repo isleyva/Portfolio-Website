@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
-import { AiOutlineClose } from "react-icons/ai";
-import { FaLinkedin } from "react-icons/fa";
+import { AiOutlineClose, AiOutlineMail, } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn,  } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -85,10 +86,25 @@ const Navbar = () => {
                 <li className="py-4 text-sm font-bold">Contact</li>
               </Link>
             </ul>
-            <div className="pt-28">
-              <p className="uppercase tracking-widest text-[#b82a2a]"> Let´s connect</p>
-              <div>
-                <FaLinkedin size={25} className="mr-5" />
+            <p className="uppercase tracking-widest text-[#b82a2a] pt-20 ml-10">
+                {" "}
+                Let´s connect
+              </p>
+            <div className="pt-6 p-10">
+             
+              <div className="flex items-center justify-between my-4 w-full sm:w-[80$]">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <FaLinkedinIn  />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <FaGithub />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <AiOutlineMail />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <BsFillPersonLinesFill />
+                </div>
               </div>
             </div>
           </div>
