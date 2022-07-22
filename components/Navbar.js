@@ -10,6 +10,10 @@ import { useState } from "react";
 const Navbar = () => {
       
     const [nav, setNav] = useState(false);
+
+    const handleNav = () => {
+        setNav(true);
+    }
   
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
