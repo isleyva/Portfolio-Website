@@ -86,23 +86,23 @@ const Navbar = () => {
                 <li className="py-4 text-sm font-bold">Contact</li>
               </Link>
             </ul>
-            <p className="uppercase tracking-widest text-[#b82a2a] pt-20 ml-10">
+            <p className="uppercase tracking-widest text-[#4eb534] pt-20 ml-10 font-bold">
                 {" "}
                 Let´s connect
               </p>
             <div className="pt-6 p-10">
              
               <div className="flex items-center justify-between my-4 w-full sm:w-[80$]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                   <FaLinkedinIn  />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                   <FaGithub />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                   <AiOutlineMail />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                   <BsFillPersonLinesFill />
                 </div>
               </div>
