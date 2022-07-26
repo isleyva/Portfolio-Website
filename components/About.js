@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 
 const About = () => {
@@ -18,8 +19,13 @@ const About = () => {
             </p>
             <p className="py-2 text-black underline cursor-pointer">Check out some of my lastest proyects</p>
             </div>
-            <div>
-              <img src="" alt='about' className='w-full h-full'/>
+            <div className='w-full h-auto m-auto shadow-xl shadow-grey-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <Image className='rounded-xl w-full'
+          src="/../public/assets/about.jpg"
+          alt="/"
+          width="400"
+          height="400"
+        />
             </div>
         </div>
     </div>
