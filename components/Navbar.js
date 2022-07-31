@@ -18,12 +18,13 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="/../public/assets/logo.png"
-          alt="/"
-          width="200"
-          height="200"
-        />
+      <Image
+                src="/../public/assets/logo.png"
+                alt="/"
+                className="object-cover h-48 w-96 "
+                width="210"
+                height="210"
+              />
         <div>
           <ul className="hidden md:flex ">
             <Link href="/">
@@ -72,7 +73,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-0 ml-10 ">
               <p className="w-[85%] md:w-[90$] py-4">
-                Let´s build your dream proyect together
+                Let's build your dream proyect together
               </p>
             </div>
           </div>
@@ -96,7 +97,7 @@ const Navbar = () => {
             </ul>
             <p className="uppercase tracking-widest text-[#4eb534] pt-32 ml-10 font-bold">
                 {" "}
-                Let´s connect
+                Let's connect
               </p>
             <div className="pt-6 p-4">
              

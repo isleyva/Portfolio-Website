@@ -1,35 +1,40 @@
-import React from 'react';
-import Image from 'next/image';
-
+import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
-    <div className='w-full md:h-screen p-2 flex items-center py-16'>
-        <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-            <div className='col-span-2'>
-            <p className='uppercase text-xl tracking-widest text-red-500 font-bold'> About</p>
-            <h2 className='py-4'> Who I Am</h2>
-            <p className="py-2 text-gray-500">// Passionate for building digital experiences</p>
-            <p className="py-2 text-black text-lg">
-              Hi, my name is Ivan and I have more than 2 years of experience in the world of informatic.
-              Started whith Cibersecurity a couple of years ago, I learned alot of systems in specially about Linux.
-              After this I started to learn about React and starting to build web proyects.
-              I'm in continuous learning and starting to make new proyects using different technologies like Next.js,Tailwinds and more cool stuff.
-              Also looking for take a professional career into programming.
-            </p>
-            <p className="py-2 text-black underline cursor-pointer">Check out some of my lastest proyects</p>
-            </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-grey-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <Image className='rounded-xl w-full'
-          src="/../public/assets/about.jpg"
-          alt="/"
-          width="400"
-          height="400"
-        />
-            </div>
+    <div className="w-full md:h-screen p-2 flex items-center py-16">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest text-red-500 font-bold">
+            {" "}
+            About
+          </p>
+          <h2 className="py-4"> Who I Am</h2>
+          <p className="py-2 text-gray-500">
+            // Passionate for building digital experiences
+          </p>
+          <p className="py-2 text-black text-lg">
+            Hi, my name is Ivan and I have more than 2 years of experience in
+            the world of informatic. Started whith Cibersecurity a couple of
+            years ago, I learned alot of systems in specially about Linux. After
+            this I started to learn about React and starting to build web
+            proyects. I'm in continuous learning and starting to make new
+            proyects using different technologies like Next.js,Tailwinds and
+            more cool stuff. Also looking for take a professional career into
+            programming.
+          </p>
+          <p className="py-2 text-black underline cursor-pointer">
+            Check out some of my lastest proyects
+          </p>
         </div>
+        <div className="w-full h-auto m-auto shadow-xl shadow-grey-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <img src="/../public/assets/about.jpg" alt="about" />
+          
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
