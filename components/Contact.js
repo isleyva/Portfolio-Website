@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import contactImg from "../public/assets/contact.jpg";
+import { FaLinkedinIn, FaGithub, } from "react-icons/fa";
+import { AiOutlineMail, } from "react-icons/ai";
+import { BsFillPersonLinesFill, } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -30,6 +33,23 @@ const Contact = () => {
                     me and let's talk.
                   </p>
                 </div>
+              </div>
+              <div>
+                    <p className="uppercase pt-8">Connect with me</p>
+                    <div>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                  <FaLinkedinIn  />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                  <FaGithub />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                  <AiOutlineMail />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                  <BsFillPersonLinesFill />
+                  </div>
+                    </div>
               </div>
             </div>
             {/*Right*/}
