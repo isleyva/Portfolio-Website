@@ -33,10 +33,9 @@ const Contact = () => {
                     me and let's talk.
                   </p>
                 </div>
-              </div>
-              <div>
+                <div>
                     <p className="uppercase pt-8">Connect with me</p>
-                    <div>
+                    <div className="flex items-center justify-between py-4">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                   <FaLinkedinIn  />
                 </div>
@@ -50,6 +49,8 @@ const Contact = () => {
                   <BsFillPersonLinesFill />
                   </div>
                     </div>
+              </div>
+            
               </div>
             </div>
             {/*Right*/}
