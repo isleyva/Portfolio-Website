@@ -15,13 +15,21 @@ const Contact = () => {
             {/*left*/}
             <div className="flex flex-col items-center justify-center">
               <div className="lg:p-4 h-full">
-                    <div>
-                        <Image 
-                        className="rounded-xl hover:scale-105 ease-in duration-300 "
-                        src={contactImg}
-                        alt="/"
-                        />
-                    </div>
+                <div>
+                  <Image
+                    className="rounded-xl hover:scale-105 ease-in duration-300 "
+                    src={contactImg}
+                    alt="/"
+                  />
+                </div>
+                <div>
+                  <h2 className="py-2">Ivan Leyva</h2>
+                  <p>Front-End Developer</p>
+                  <p className="py-4">
+                    I am available for freelance or full-time positions. Contact
+                    me and let's talk.
+                  </p>
+                </div>
               </div>
             </div>
             {/*Right*/}
