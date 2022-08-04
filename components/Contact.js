@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             {/*left*/}
             <div className="flex flex-col items-center justify-center">
-              <div className="lg:p-4 h-full">
+              <div className="lg:p-4 h-20 ">
                 <div>
                   <Image
                     className="rounded-xl hover:scale-105 ease-in duration-300 "
@@ -35,9 +35,9 @@ const Contact = () => {
                     me and let's talk.
                   </p>
                 </div>
-                <div>
+                <div className="">
                   <p className="uppercase pt-8">Connect With Me</p>
-                  <div className="flex items-center justify-between py-4">
+                  <div className="flex items-center justify-between py-4 mb-0">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                       <FaLinkedinIn />
                     </div>

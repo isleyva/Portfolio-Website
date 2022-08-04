@@ -5,15 +5,26 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose, AiOutlineMail, } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn,  } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
       
     const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
 
     const handleNav = () => {
         setNav(!nav);
     }
+    useEffect(() => {
+        const handleShadow = () => {
+          if (window.scrollY > 100) {
+            setShadow(true);
+          } else {
+            setShadow(false);
+          }
+        }
+        window.addEventListener("scroll", handleShadow);
+    }, []);
   
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
