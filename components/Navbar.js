@@ -93,16 +93,16 @@ const Navbar = () => {
               <Link href="/">
                 <li className="py-4 text-sm font-bold">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="/#about">
                 <li className="py-4 text-sm font-bold">About </li>
               </Link>
-              <Link href="/">
+              <Link href="/#skills">
                 <li className="py-4 text-sm font-bold">Skills</li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects">
                 <li className="py-4 text-sm font-bold">Proyects</li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact">
                 <li className="py-4 text-sm font-bold">Contact</li>
               </Link>
             </ul>
