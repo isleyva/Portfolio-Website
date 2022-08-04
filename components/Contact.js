@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import contactImg from "../public/assets/contact.jpg";
-import { FaLinkedinIn, FaGithub, } from "react-icons/fa";
-import { AiOutlineMail, } from "react-icons/ai";
-import { BsFillPersonLinesFill, } from "react-icons/bs";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -34,36 +34,41 @@ const Contact = () => {
                   </p>
                 </div>
                 <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
-                  <FaLinkedinIn  />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
-                  <BsFillPersonLinesFill />
-                  </div>
+                  <p className="uppercase pt-8">Connect With Me</p>
+                  <div className="flex items-center justify-between py-4">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                      <FaLinkedinIn />
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                      <FaGithub />
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                      <AiOutlineMail />
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
+                      <BsFillPersonLinesFill />
+                    </div>
                   </div>
                 </div>
               </div>
-              
             </div>
             {/*right*/}
-            
-            </div>
-            <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
-                <p>hello</p>
-            </div>
-            </div>
-            
+          </div>
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="p-4">
+                <form>
+                  <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                      <div className="flex flex-col">
+                        <label className="uppercase text-sm py-2">Name</label>
+                        <input className="rounded-lg p-3 border-2 flex border-gray-300" type="text" />
+                     </div>   
+                  </div>
+                </form>
+          </div>
           </div>
         </div>
-      
+      </div>
+    </div>
   );
 };
 
