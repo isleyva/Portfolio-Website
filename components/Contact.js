@@ -9,9 +9,9 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div id="contact" className=" w-full lg:h-screen">
+    <div id="contact" className=" w-full lg:h-screen pt-16">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-xl tracking-widest uppercase text-red-500">
+        <p className="text-xl tracking-widest uppercase text-red-500 font-bold">
           Contact
         </p>
         <h2 className="p-4">Get in touch</h2>
