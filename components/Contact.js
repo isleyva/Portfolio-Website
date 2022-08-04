@@ -75,6 +75,10 @@ const Contact = () => {
                     <label className="uppercase text-sm py-2">Subject</label>
                     <input className="rounded-lg p-3 border-2 flex border-gray-300" type="text" />
                   </div>
+                  <div className="flex flex-col py-2">
+                    <label className="uppercase text-sm py-2">Message</label>
+                    <textarea className="rounded-lg p-3 border-2  border-gray-300" rows={10} type="text" />
+                  </div>
                   
                 </form>
           </div>
