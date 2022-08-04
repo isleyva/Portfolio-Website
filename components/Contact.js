@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
         <h2 className="p-4">Get in touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-spam-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             {/*left*/}
             <div className="flex flex-col items-center justify-center">
               <div className="lg:p-4 h-full">
@@ -51,7 +51,13 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
+              
             </div>
+            {/*right*/}
+            
+            </div>
+            <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+                <p>hello</p>
             </div>
             </div>
             
