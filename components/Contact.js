@@ -29,8 +29,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h2 className="py-2">Ivan Leyva</h2>
-                  <p>Front-End Developer</p>
-                  <p className="py-4">
+                  <p className="font-bold text-lg">Front-End Developer</p>
+                  <p className="py-4 text-xl">
                     I am available for freelance or full-time positions. Contact
                     me and let`s talk.
                   </p>
@@ -38,18 +38,26 @@ const Contact = () => {
                 <div className="">
                   <p className="uppercase pt-8">Connect With Me</p>
                   <div className="flex items-center justify-between py-4 mb-0">
+                    <Link href="https://www.linkedin.com/in/isleyva/">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                       <FaLinkedinIn />
                     </div>
+                    </Link>
+                    <Link href="https://github.com/isleyva">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                       <FaGithub />
                     </div>
+                    </Link>
+                    <Link href="/#contact">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                       <AiOutlineMail />
                     </div>
+                    </Link>
+                    <Link href="">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200 hover:shadow-green-500">
                       <BsFillPersonLinesFill />
                     </div>
+                    </Link>
                   </div>
                 </div>
               </div>
