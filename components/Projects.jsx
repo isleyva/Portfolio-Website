@@ -14,7 +14,7 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-red-500 font-bold">
           Projects
         </p>
-        <h2 className="p-4"> What I've Built</h2>
+        <h2 className="p-4"> What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectsItem title="Crypto Base" backgroundImg={cryptoImg} projectUrl=""/>
           <ProjectsItem title="Spacex Api" backgroundImg={spacexImg} projectUrl=""/>

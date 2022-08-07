@@ -84,7 +84,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-0 ml-10 ">
               <p className="w-[85%] md:w-[90$] py-4">
-                Let's build your dream proyect together
+                Let&apos;s build your dream proyect together
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ const Navbar = () => {
             </ul>
             <p className="uppercase tracking-widest text-[#4eb534] pt-32 ml-10 font-bold">
                 {" "}
-                Let's connect
+                Let&apos;s connect
               </p>
             <div className="pt-6 p-4">
              

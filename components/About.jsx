@@ -21,7 +21,7 @@ const About = () => {
             the world of informatic. Started whith Cibersecurity a couple of
             years ago, I learned alot of systems in specially about Linux. After
             this I started to learn about React and starting to build web
-            proyects. I`m in continuous learning and starting to make new
+            proyects. I&apos;m in continuous learning and starting to make new
             proyects using different technologies like Next.js,Tailwinds and
             more cool stuff. Also looking for take a professional career into
             programming.
