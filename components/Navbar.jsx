@@ -72,7 +72,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between h-20">
               <Image
-                src="/../public/assets/logo.png"
+                src="/assets/logo.png"
                 alt="/"
                 className="object-cover h-48 w-96 "
                 width="150"
