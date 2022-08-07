@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
       <Image
-                src="/../public/assets/logo.png"
+                src="/assets/logo.png"
                 alt="/"
                 className="object-cover h-48 w-96 "
                 width="210"
