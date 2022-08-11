@@ -4,11 +4,7 @@ import Link from "next/link";
 import ProjectsItem from "./ProjectItem";
 import spacexImg from "../public/assets/projects/spacexApiphoto.jpg";
 
-const Linkto = () => {
-  ruturn (
-    <Link href="spacex-api-deepman42.vercel.app/"/>
-  )
-} 
+
 
 const Projects = () => {
   return (
