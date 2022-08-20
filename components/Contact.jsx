@@ -3,11 +3,29 @@ import Image from "next/image";
 import contactImg from "../public/assets/contact.jpg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+ 
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_7fmsh93', 'template_2ay012a', form.current, '1UxEsiZ_nI_yoSz2U')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+      };
+
+   
+
+  
   return (
     <div id="contact" className=" w-full lg:h-screen pt-16">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -62,13 +80,14 @@ const Contact = () => {
           </div>
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
-                    <input
+                    <input type="text" name="user_name"
                       className="rounded-lg p-3 border-2 flex border-gray-300"
-                      type="text"
+                     
                     />
                   </div>
                   <div className="flex flex-col">
@@ -83,30 +102,33 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
-                  <input
+                  <input type="email" name="user_email"
                     className="rounded-lg p-3 border-2 flex border-gray-300"
-                    type="email"
+                   
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
-                  <input
+                  <input 
                     className="rounded-lg p-3 border-2 flex border-gray-300"
                     type="text"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
-                  <textarea
+                  <textarea name="message"
                     className="rounded-lg p-3 border-2  border-gray-300"
                     rows={10}
                     type="text"
                   />
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
+                  
+                <input type="submit" value="SEND MESSAGE"
+                />
                 </button>
               </form>
+            
             </div>
           </div>
         </div>
@@ -124,7 +146,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
+  ); 
 };
+
 
 export default Contact;
