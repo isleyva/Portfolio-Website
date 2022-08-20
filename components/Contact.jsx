@@ -3,7 +3,7 @@ import Image from "next/image";
 import contactImg from "../public/assets/contact.jpg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 
