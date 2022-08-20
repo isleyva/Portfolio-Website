@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             {/*left*/}
             <div className="flex flex-col items-center justify-center">
-              <div className="lg:p-4 h-20 ">
+              <div className="lg:p-4 h-full ">
                 <div>
                   <Image
                     className="rounded-xl hover:scale-105 ease-in duration-300 "
@@ -27,8 +27,8 @@ const Contact = () => {
                     alt="/"
                   />
                 </div>
-                <div>
-                  <h2 className="py-2">Ivan Leyva</h2>
+                <div className="w-full">
+                  <h2 className="py-2 ">Ivan Leyva</h2>
                   <p className="font-bold text-lg">Front-End Developer</p>
                   <p className="py-4 text-xl">
                     I am available for freelance or full-time positions. Contact
