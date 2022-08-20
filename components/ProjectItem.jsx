@@ -9,7 +9,8 @@ const ProjectItem = ({title, backgroundImg, projectUrl}) => {
       <Image
         className="rounded-xl group-hover:opacity-10 "
         src={backgroundImg}
-
+        width={500}
+        height={400}
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
