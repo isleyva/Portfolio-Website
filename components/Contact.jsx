@@ -122,11 +122,12 @@ const Contact = () => {
                     type="text"
                   />
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
-                  
+              
+                <button className="w-full p-4 text-gray-100 mt-4" > 
                 <input type="submit" value="SEND MESSAGE"
                 />
                 </button>
+              
               </form>
             
             </div>

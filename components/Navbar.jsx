@@ -39,20 +39,20 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex ">
             <Link href="/">
-              <li className="ml-10 text-base uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-base uppercase hover:border-b  border-red-700">Home</li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-base uppercase hover:border-b">
+              <li className="ml-10 text-base uppercase hover:border-b border-red-700">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-base uppercase hover:border-b">
+              <li className="ml-10 text-base uppercase hover:border-b border-red-700">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-base uppercase hover:border-b">
+              <li className="ml-10 text-base uppercase hover:border-b border-red-700">
                 Proyects
               </li>
             </Link>
