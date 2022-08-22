@@ -57,7 +57,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-base uppercase hover:border-b">
+              <li className="ml-10 text-base uppercase hover:border-b  border-red-700">
                 Contact
               </li>
             </Link>
